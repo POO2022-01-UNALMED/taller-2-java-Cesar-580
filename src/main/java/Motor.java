@@ -1,4 +1,5 @@
-package main.java;
+package test;
+
 
 class Motor {
 	int numeroCilindros;

@@ -1,4 +1,4 @@
-package main.java;
+package test;
 
 class Asiento {
 	String color;

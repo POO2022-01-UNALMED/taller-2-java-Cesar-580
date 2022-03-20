@@ -1,4 +1,4 @@
-package main.java;
+package test;
 
 class Auto {
 	String modelo;
@@ -11,6 +11,8 @@ class Auto {
 	// Atributo de clase
 	static int cantidadCreados;
 	
+	
+	// Métodos.
 	int cantidadAsientos() {
 		int cont = 0;
 		
