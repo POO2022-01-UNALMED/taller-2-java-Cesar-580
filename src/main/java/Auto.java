@@ -11,7 +11,7 @@ class Auto {
 	// Atributo de clase
 	static int cantidadCreados;
 	
-	public int cantidadAsientos() {
+	int cantidadAsientos() {
 		int cont = 0;
 		
 		if (this.asientos != null) {
@@ -26,7 +26,7 @@ class Auto {
 	}
 	
 	
-	public String verificarIntegridad() {
+	String verificarIntegridad() {
 		if (this.registro == this.motor.registro && this.registro == this.asientos[0].registro){
 			return "Auto original";
 		} else {
