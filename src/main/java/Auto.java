@@ -1,6 +1,6 @@
 package main.java;
 
-public class Auto {
+class Auto {
 	String modelo;
 	int precio;
 	Asiento[] asientos;

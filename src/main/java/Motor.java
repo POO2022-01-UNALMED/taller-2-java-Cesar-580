@@ -1,6 +1,6 @@
 package main.java;
 
-public class Motor {
+class Motor {
 	int numeroCilindros;
 	String tipo;
 	int registro;
